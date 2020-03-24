@@ -12,7 +12,7 @@
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
-StaticJsonDocument<256> jsonDoc;
+StaticJsonDocument<1024> jsonDoc;
 
 const char* ssid = "YOUR_SSID" // Set to your WiFi's SSID;
 const char* password = "YOUR_WIFI_PASSWORD" // Set to your WiFi's Password;
